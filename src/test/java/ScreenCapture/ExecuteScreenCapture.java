@@ -20,7 +20,7 @@ public class ExecuteScreenCapture {
 
         File screenshot  = ((TakesScreenshot)ObjectRepository.Driver).getScreenshotAs(OutputType.FILE);
 
-      FileHandler.copy(screenshot,new File("C:\\Users\\JoeObasogie\\IdeaProjects\\VehicleRegistration\\Screenshots\\FailedAutomation" +screenshotNameFormat+".png"));
+      FileHandler.copy(screenshot,new File("C:\\Users\\JoeObasogie\\IdeaProjects\\VehicleRegistration\\src\\main\\java\\Screenshots\\FailedAutomation" +screenshotNameFormat+".png"));
 
     }
 
