@@ -5,7 +5,7 @@ Feature: A verification of vehicle existence within VolksWagen Financial Service
    Given user navigates to VolksWagen URL
 
 @positiveTest @negativeTest
-  Scenario Outline: User searches for a car by its registration number. Testing VolkWagen Registered Cars Testing both positive and negative entries of vehicle registration numbers
+  Scenario Outline: User searches for a car by its registration number. Testing VolkWagen Registered Cars Testing both positive and negative entries of vehicle registration numbers.
     Then user confirm <SubTitle> is displayed and input field is present thus enters <Registration Number>
     And clicks on the “Find vehicle” button
     Then <Result> is displayed and the page will display the <Registration Number> that the user entered
